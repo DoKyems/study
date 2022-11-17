@@ -9,6 +9,7 @@
 ## Naver CLOVA 텍스트 인식 오픈소스
 [Github link](https://github.com/clovaai/deep-text-recognition-benchmark)
 해당 오픈소스는 PyTorch 기반 텍스트 인식 모델로, 이미지에서 영어 텍스트를 인식함.<br>
+### (출처 : clovaai/deep-text-recognition-benchmark/README.md)<br>
 
 ex)<br>
 | demo images | [TRBA (**T**PS-**R**esNet-**B**iLSTM-**A**ttn)](https://drive.google.com/open?id=1b59rXuGGmKne1AuHnkgDzoYgKeETNMv9) | [TRBA (case-sensitive version)](https://drive.google.com/open?id=1ajONZOgiG9pEYsQ-eBmgkVbMDuHgPCaY) |
@@ -26,7 +27,7 @@ ex)<br>
 
 
 ## 만약 오픈소스에 제공되지 않은 데이터셋이나, 영문이 아닌 데이터셋을 학습시키려면,
-### (출처 : clovaai/deep-text-recognition-benchmark/README.md)
+### (출처 : clovaai/deep-text-recognition-benchmark/README.md)<br>
 1. Create your own lmdb dataset.
 ```
 pip3 install fire
@@ -52,4 +53,6 @@ test/word_3.png A
 ```
 2. Modify `--select_data`, `--batch_ratio`, and `opt.character`, see [this issue](https://github.com/clovaai/deep-text-recognition-benchmark/issues/85).
 
-
+## 라이선스
+Copyright (c) 2019-present NAVER Corp.
+Licensed under the Apache License, Version 2.0
