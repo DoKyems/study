@@ -56,6 +56,8 @@ test/word_3.png A
 ## 라이선스
 Copyright (c) 2019-present NAVER Corp.
 Licensed under the Apache License, Version 2.0
+<br>
+<br>
 
 #리뷰 작성자가 로봇인지 판별하는 기능
 
