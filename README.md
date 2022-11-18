@@ -56,3 +56,18 @@ test/word_3.png A
 ## 라이선스
 Copyright (c) 2019-present NAVER Corp.
 Licensed under the Apache License, Version 2.0
+
+#리뷰 작성자가 로봇인지 판별하는 기능
+
+## reCAPTCHA 봇 방지 API
+
+[Github link](https://github.com/google/recaptcha)<br>
+reCAPTCHA는 오픈소스가 아닌 API 모델로, 사용자가 봇인지 판별함<br>
+
+## 사용법
+
+reCAPTCHA v2 -> 사용자가 이미지 클릭하여 인증<br>
+reCAPTCHA v3 -> reCAPTCHA 시스템에서 사용자의 행동에 점수를 매겨 봇인지 판별 (추천)<br>
+
+## 라이선스
+BSD 
