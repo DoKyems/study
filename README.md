@@ -59,7 +59,7 @@ Licensed under the Apache License, Version 2.0
 <br>
 <br>
 
-#리뷰 작성자가 로봇인지 판별하는 기능
+# 리뷰 작성자가 로봇인지 판별하는 기능
 
 ## reCAPTCHA 봇 방지 API
 
